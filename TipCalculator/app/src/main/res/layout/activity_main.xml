@@ -1,0 +1,96 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.example.aasthaanand.tipcalculator.MainActivity">
+
+    <GridLayout
+
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        tools:ignore="MissingConstraints"
+        tools:layout_editor_absoluteX="20dp"
+        tools:layout_editor_absoluteY="16dp">
+
+        <EditText
+            android:id="@+id/amount"
+            android:layout_width="345dp"
+            android:layout_height="67dp"
+            android:layout_column="0"
+            android:layout_columnSpan="2"
+            android:layout_row="0"
+            android:background="@null"
+            android:gravity="left|center"
+            android:hint="Enter Amount"
+            android:inputType="none|numberDecimal"
+            android:paddingLeft="20dp"
+            android:textColor="#21263A"
+            android:textSize="26sp"
+            android:textStyle="bold"
+            tools:ignore="LabelFor,RtlHardcoded,TextFields" />
+
+        <SeekBar
+            android:id="@+id/seeker"
+            android:layout_width="255dp"
+            android:layout_height="40dp"
+            android:layout_column="1"
+            android:layout_row="1" />
+
+        <TextView
+            android:id="@+id/tip"
+            android:layout_width="90dp"
+            android:layout_height="68dp"
+            android:layout_column="0"
+            android:layout_row="2"
+            android:gravity="center"
+            android:text="@string/tip"
+            android:textSize="24sp" />
+
+        <TextView
+            android:id="@+id/total"
+            android:layout_width="90dp"
+            android:layout_height="68dp"
+            android:layout_column="0"
+            android:layout_row="3"
+            android:gravity="center"
+            android:text="@string/total"
+            android:textSize="24sp"
+            android:textStyle="bold"
+            tools:text="Total" />
+
+        <TextView
+            android:id="@+id/skbar"
+            android:layout_width="90dp"
+            android:layout_height="40dp"
+            android:layout_column="0"
+            android:layout_row="1"
+            android:paddingLeft="30dp"
+            android:textSize="18sp" />
+
+        <TextView
+            android:id="@+id/tipamt"
+            android:layout_width="255dp"
+            android:layout_height="68dp"
+            android:layout_column="1"
+            android:layout_row="2"
+            android:background="#D1C4E9"
+            android:gravity="center"
+            android:text="$0.00"
+            android:textSize="18sp" />
+
+        <TextView
+            android:id="@+id/ttl"
+            android:layout_width="255dp"
+            android:layout_height="68dp"
+            android:layout_column="1"
+            android:layout_row="3"
+            android:background="#D1C4E9"
+            android:gravity="center"
+            android:text="$0.00"
+            android:textSize="24sp"
+            android:textStyle="bold" />
+    </GridLayout>
+
+</android.support.constraint.ConstraintLayout>
