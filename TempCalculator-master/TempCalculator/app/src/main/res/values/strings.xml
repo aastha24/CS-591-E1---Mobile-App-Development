@@ -1,0 +1,7 @@
+<resources>
+    <string name="app_name">TempCalculator</string>
+    
+    <string name="celsius">Celsius</string>
+    <string name="fahrenheit">Fahrenheit</string>
+    <string name="locale">en-US</string>
+</resources>

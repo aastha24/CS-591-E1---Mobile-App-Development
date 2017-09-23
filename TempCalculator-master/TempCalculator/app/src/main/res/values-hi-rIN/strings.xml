@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">TempCalculator</string>
+
+    <string name="celsius">सेल्सियस</string>
+    <string name="fahrenheit">फ़ारेनहाइट</string>
+    <string name="locale">hi-rIN</string>
+</resources>

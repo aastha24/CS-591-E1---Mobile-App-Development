@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">TempCalculator</string>
+
+    <string name="celsius">摄氏度</string>
+    <string name="fahrenheit">华氏度</string>
+    <string name="locale">zh-CN</string>
+</resources>

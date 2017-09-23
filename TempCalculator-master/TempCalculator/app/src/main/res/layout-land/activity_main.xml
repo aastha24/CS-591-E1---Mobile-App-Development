@@ -1,0 +1,77 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.shinji.tempcalculator.MainActivity"
+    android:orientation="vertical">
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/locale"
+        android:layout_gravity="right"
+        android:textSize="15sp"
+        android:layout_margin="10dp"/>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="30dp"
+        android:layout_marginTop="10dp"
+        android:text="@string/celsius"
+        android:textColor="#000000"
+        android:textSize="20sp" />
+
+    <SeekBar
+        android:id="@+id/sbCelsius"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:max="100"
+        android:progress="0"
+        android:layout_margin="20dp"/>
+
+    <TextView
+        android:id="@+id/tvCelsius"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="right"
+        android:layout_marginRight="50dp"
+        android:background="@drawable/bg_wrap_layout"
+        android:padding="5dp"
+        android:text="0.00"
+        android:textColor="#00BFFF"
+        android:textSize="20sp" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="30dp"
+        android:text="@string/fahrenheit"
+        android:textColor="#000000"
+        android:textSize="20sp" />
+
+    <SeekBar
+        android:id="@+id/sbFahrenheit"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:max="212"
+        android:progress="32"
+        android:layout_margin="20dp"/>
+
+    <TextView
+        android:id="@+id/tvFahrenheit"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="right"
+        android:layout_marginRight="50dp"
+        android:background="@drawable/bg_wrap_layout"
+        android:padding="5dp"
+        android:text="32.00"
+        android:textColor="#00BFFF"
+        android:textSize="20sp" />
+
+
+
+
+</LinearLayout>
