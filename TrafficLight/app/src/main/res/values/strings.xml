@@ -1,0 +1,5 @@
+<resources>
+    <string name="app_name">TrafficLight</string>
+    <string name="change_lights">Change Lights</string>
+    <string name="red">Red</string>
+</resources>
