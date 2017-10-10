@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.example.mlfan.w4_p3.North"
+    android:orientation="vertical">
+
+    <TextView
+        android:id="@+id/txtEast"
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:text="@string/north_welcome"
+        android:textSize="50sp"
+        android:layout_marginTop="10dp"
+        android:layout_weight="1"
+        android:textAlignment="center"/>
+
+    <ImageView
+        android:id="@+id/imgEast"
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        app:srcCompat="@drawable/north"
+        android:layout_weight="3"/>
+
+    <Button
+        android:id="@+id/btnNorth"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/home"
+        android:textSize="15sp"
+        android:layout_marginBottom="15dp"/>
+</LinearLayout>

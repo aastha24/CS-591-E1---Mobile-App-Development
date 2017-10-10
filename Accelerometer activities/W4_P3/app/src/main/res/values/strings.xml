@@ -1,0 +1,9 @@
+<resources>
+    <string name="app_name">Compass</string>
+    <string name="home_message">Where would you like to go?</string>
+    <string name="east_welcome">Welcome to the East!</string>
+    <string name="west_welcome">Welcome to the West!</string>
+    <string name="north_welcome">Welcome to the North!</string>
+    <string name="south_welcome">Welcome to the South!</string>
+    <string name="home">GO HOME!</string>
+</resources>
